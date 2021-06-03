@@ -12,11 +12,11 @@ http.listen(PORT, () => {
 app.use(express.static(__dirname + "/public"));
 
 app.get("/", (req, res) => {
-	res.sendFile(__dirname + "/cc.html");
+	res.sendFile(__dirname + "/index.html");
 });
 
 app.get("/bot", (req, res) => {
-	res.sendFile(__dirname + "/index.html");
+	res.sendFile(__dirname + "/cc.html");
 });
 
 // Socket

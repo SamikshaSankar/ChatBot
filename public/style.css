@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+section.chat__section {
+    width: 860px;
+    max-width: 90%;
+    background: floralwhite;
+    box-shadow: 0 10px 25px -3px rgba(0, 0, 0, 0.5), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.brand {
+    padding: 20px;
+    background: blue;
+    display: flex;
+    align-items: center;
+}
+
+    .brand h1 {
+        text-transform: uppercase;
+        font-size: 20px;
+        color: white;
+        margin-left: 10px;
+    }
+
+.message__area {
+    height: 565px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding-top: 40px;
+}
+
+textarea {
+    width: 100%;
+    border: none;
+    padding: 20px;
+    font-size: 15px;
+    outline: none;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.message {
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 40px;
+    max-width: 350px;
+    position: relative;
+}
+
+.incoming {
+    background: cadetblue;
+    color: black;
+}
+
+.outgoing {
+    background: darksalmon;
+    color: white;
+    margin-left: auto;
+}
+
+.message h4 {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    color: #333;
+    font-size: 14px;
+}
+
+.f {
+    width: 390px;
+    border: none;
+    padding: 20px;
+    font-size: 16px;
+    outline: dotted;
+    background: cornflowerblue;
+}
+
+.g {
+    width: 400px;
+    border: none;
+    padding: 20px;
+    font-size: 16px;
+    outline: dotted;
+    margin-left: 420px;
+    margin-top: -115px;
+    background: cornflowerblue;
+}
+.close {
+   width: 40px;
+   height: 40px;
+   background-color: black;
+   font-size: 30px;
+   position: absolute;
+   margin-left: 880px;
+   margin-top: 16px;
+
+}
+.j {
+  margin-left:13px;
+  margin-top: -2px;
+}
+.m {
+   margin-top: 50px;
+}
